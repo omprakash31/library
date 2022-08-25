@@ -27,5 +27,5 @@ Send2Trash==1.8.0
 setuptools-scm==6.3.2
 urllib3==1.26.7
 whitenoise==6.2.0
-psycopg2-2.9.3
-apscheduler-3.9.1
+psycopg2==2.9.3
+apscheduler==3.9.1

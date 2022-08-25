@@ -1,0 +1,11 @@
+web: gunicorn LibraryManagementSystem.wsgi --log-file -
+
+cd LibraryManagementSystem
+python manage.py runserver
+
+
+C:\Users\bikis\Desktop\LIS\LibraryManagementSystem>celery -A LibraryManagementSystem worker --pool=solo -l info
+inside it
+celery -A LibraryManagementSystem worker --pool=solo -l info
+
+celery -A LibraryManagementSystem beat -l info -S django

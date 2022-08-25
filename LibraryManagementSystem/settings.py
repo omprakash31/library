@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-ltf5((0x5myo-4l#ay19e_*)7pn&3baq67mb#rykfc1t$739r&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1','librarysystembyom.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1','*']
 
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
